@@ -1,0 +1,8 @@
+CreateUser-Test-Case.xml
+RemoveUser-Test-Case.xml
+AddSecondary-User.xml
+Create-Duplicate-User-Negative-Test-Case.xml
+GetUser-by-ID.xml
+Add-payment-to-existing-user.xml
+UpdateSecondary-User.xml
+UpdatePayment.xml

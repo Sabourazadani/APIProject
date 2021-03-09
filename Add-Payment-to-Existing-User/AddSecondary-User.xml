@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="caf60332-7a45-485b-8bc1-32dd847f8fee" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="AddSecondary User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="caf60332-7a45-485b-8bc1-32dd847f8feefileName">AddSecondary-User</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="3c768fb2-40f3-4887-a919-96d215a80f7d"><con:settings/><con:config service="https://www.test-insurance.com" methodName="SecondaryUserRequest" resourcePath="/api/v1/user" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="e4d0dbe5-46dd-417c-9ddd-9ad9a6827b9f" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPersonId": "140",
+  "secondaryPerson": {
+    "username": "BCA",
+    "email": "abc@gmail.com",
+    "title": "Ms",
+    "firstName": "we",
+    "lastName": "ze",
+    "gender": "female",
+    "maritalStatus": "married",
+    "employmentStatus": "student",
+    "dateOfBirth": "2021-12-12",
+    "languagePref": "Eng",
+    "password": "1234Fake"
+  },
+  "secondaryPersonMailingAddress": {
+    "addressType": "23232 hove Dr",
+    "addressLine1": "apt 201",
+    "city": "Fall Church",
+    "state": "Va",
+    "postalCode": "240110",
+    "countryCode": "001"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

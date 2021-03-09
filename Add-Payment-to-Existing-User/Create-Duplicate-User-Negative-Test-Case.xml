@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="4121d802-82f2-4190-91db-14ef64f15254" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Create Duplicate User Negative Test Case" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="4121d802-82f2-4190-91db-14ef64f15254fileName">Create-Duplicate-User-Negative-Test-Case</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="a90a4a04-e068-497b-a789-e576026b597a"><con:settings/><con:config service="https://www.test-insurance.com" resourcePath="/api/v1/user" methodName="createUserRequest" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="3d8f5a5c-aed1-4d09-a362-6829a17da23b" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPerson": {
+    "email": "abc@gmail.com",
+    "title": "mr",
+    "firstName": "A",
+    "lastName": "Z",
+    "gender": "Male",
+    "maritalStatus": "Single",
+    "employmentStatus": "Employed",
+    "dateOfBirth": "2021-12-12",
+    "languagePref": "en"
+  },
+  "primaryPersonMailingAddress": {
+    "addressType": "43343 handl ",
+    "addressLine1": "5643 ",
+    "city": "F",
+    "state": "VA",
+    "postalCode": "34343",
+    "countryCode": "201"
+  },
+  "primaryPersonPhone": {
+    "phoneNumber": "34343 4343 34 343 ",
+    "phoneExtension": "40404",
+    "phoneTime": "1223455",
+    "phoneType": "232323"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

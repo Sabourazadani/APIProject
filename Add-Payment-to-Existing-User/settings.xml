@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="7b85fb42-f37c-4344-bbf9-41f84210e404" name="Add Payment to Existing User" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="7b85fb42-f37c-4344-bbf9-41f84210e404fileName">Add-Payment-to-Existing-User</con:setting></con:settings><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="f5da5f91-aa3c-4a72-957e-5ca3cc92dc3f" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="UpdateSecondary User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="f5da5f91-aa3c-4a72-957e-5ca3cc92dc3ffileName">UpdateSecondary-User</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>
